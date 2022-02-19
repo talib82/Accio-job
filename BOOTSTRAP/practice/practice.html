@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    /* ----------Q1 PRINTING THE ELEMENTS  OF AN ARRAY WITH INDEX----------*/
+   
+    //     arr=[2,5,6,7,4,5,2,9]
+    
+    // for(let i in arr){
+    //     document.write(i+"-"+arr[i]+"<br>")
+    // }
+   
+    /* ----------Q2 PRINTING THE ELEMENTS  OF AN ARRAY USING FOREACH METHODS----------*/
+   
+    // let arr = [1, 2, 1, 1, 3, 8, 2,8, 1, 1,8,3,2,4,5,8,43,34,8]
+
+    //  let newArray = []
+
+    //  arr.forEach(function normal(val, ind) {
+    //   if (val>=5) {
+    //  newArray.push(val)
+    //    }
+    // })
+    // document.write(newArray)
+   
+    /* ----------Q3 PRINTING THE ELEMENTS  OF AN ARRAY USING FILTER METHOD----------*/
+   
+    // let newArray = arr.filter(function (element){
+    //  return element >=5})
+    //  document.write(newArray)
+    // let arr =[2000,4000,5000,6000,7000]
+    // arr = arr.map(function(k){
+    //     if (k != 4000)
+    //     k = k + 10000
+    //     return k
+    // })
+    // document.write(arr)
+ 
+ /*---------FIBONACCI SERIES------------------*/
+ 
+    // let arr = [2, 6, 3, 1, 4, 9] 
+//     let fibonacciSeriesArray = [0, 1]
+//      let x = 15
+//      for (let i = 1; i < x; i++) {
+//       fibonacciSeriesArray.push(fibonacciSeriesArray[i] + fibonacciSeriesArray[i - 1])
+//      }
+//      let op = arr.map((element) => {
+//    return fibonacciSeriesArray[element]
+//      })
+//     console.log(op)
+  
+/*---------FIBONACCI SERIES BY ME ------------------*/
+   
+// let fibo = [0,1]
+//     let x = 22 for the be
+//     for (let i=1; i<x; i++){
+//         fibo.push(fibo[i] + fibo [i-1])
+//     }
+//      let op = arr.map((element)=>{
+//          return fibo[element]
+//      })
+//     document.write(fibo)
+
+/* ----------Q.4 EVEN NUMBER----------*/
+   let arr = [ 2,5,4,6,8,6,9]
+   let newarr = arr.filter((value) =>{
+       return value % 2 !=0
+    })
+    if (newarr.length ===0){
+        console.log("yes")
+    }
+    else{ 
+      console.log("no")
+    }
+    
+ </script>
+</body>
+</html>
